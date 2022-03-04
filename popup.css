@@ -1,0 +1,46 @@
+html {
+  width:357px; 
+  height:600px;
+  padding: 0;
+  color: #555555;
+}
+
+body {
+  width: 357px; 
+  height: 600px;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.default-select {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #555555;
+  font-size: 15px;
+  color: #555555;
+  background-color: transparent;
+  text-align: center;
+  text-decoration: none;
+}
+
+.default-select:hover {
+  cursor: pointer;
+}
+
+.default-button {
+  border: 1px solid #555555;
+  padding: 5px 50px;
+  font-size: 15px;
+  color: #555555;
+  background-color: transparent;
+}
+
+.default-button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
