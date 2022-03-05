@@ -23,6 +23,8 @@ document.getElementById('auto-refresh').addEventListener('click', function() {
     document.getElementById('select-ticker').disabled = false
     document.getElementById('select-ticker').className = 'default-select'
 
+    beforePrice = 0
+
     clearInterval(autoRefreshId)
   } else {
     document.getElementById('auto-refresh').className = 'success-button'
